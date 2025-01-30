@@ -7,7 +7,7 @@
     font-family: sans-serif;
 }
 body{
-    background-color: #000e07;
+    background-color: #071917;
 }
 
 .header {
@@ -76,21 +76,71 @@ body{
 }
 
 .section_icon{
-    background: #091b18;
+    background: #0d1813;
     display: flex;
     justify-content: space-evenly;
 }
-.section_page2{
+.section_page2 h2{
+    width: 80%;
     font-size: 50px;
     font-family: "Monserrat-Semibold";
 }
 
 .section_page2{
-    background-image: url(/storage/img/fondo2.png);
-    background-size: cover;
+    background-image: var(--banner-2);
     background-position: center 20%;
     background-repeat: no-repeat;
     height: 140svh;
+    background-size: 94% auto;
+    border-radius: 65px;
+
+    
+}
+
+.section_page2 h2{
+    color: aliceblue;
+    margin: 0 0 57px 100px;
+    font-size: 60px;
+    margin-top: 53%;
+}
+
+
+.section_page3{
+    background-image: var(--banner-3);
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    height: 140svh;
+    background-size: 94% auto;
+    border-radius: 65px;
+    margin-top: -15%;
+    
+}
+
+.section_page3 h2{
+    color: aliceblue;
+    margin: 0 0 57px 100px;
+    font-size: 60px;
+    margin-top: 53%;
+}
+
+
+
+.section_page4{
+    background-image: var(--banner-4);
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    height: 140svh;
+    background-size: 94% auto;
+    border-radius: 65px;
+    margin-top: -15%;
+    
+}
+
+.section_page4 h2{
+    color: aliceblue;
+    margin: 0 0 57px 100px;
+    font-size: 60px;
+    margin-top: 53%;
 }
 
 /*Para telefonos*/
@@ -147,7 +197,7 @@ body{
     .section_home{
         display: flex;
         justify-content: normal;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 150px;
+        padding-right: 15p0x;
     }
 }

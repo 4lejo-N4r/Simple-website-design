@@ -2,7 +2,10 @@
     --font-color-1: #eee;
     --color-gradient-1: #376e4014;
     --color-gradient-2: #071917;
-    --banner-1: url(/storage/img/fondo.png)
+    --banner-1: url(/storage/img/fondo.png);
+    --banner-2: url(/storage/img/fondo2.png);
+    --banner-3: url(/storage/img/fondo3.png);
+    --banner-4: url(/storage/img/fondo4.png);
     
 }
 
