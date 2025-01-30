@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+body{
+    background-color: #000e07;
+}
 
 .header {
     display: flex;
@@ -49,6 +52,9 @@
     color: var(--font-color-1);
 }
 
+
+
+
 .article_home span{
     font-size: 40px;    
     font-family: "Monserrat-Semibold";
@@ -74,7 +80,18 @@
     display: flex;
     justify-content: space-evenly;
 }
-    
+.section_page2{
+    font-size: 50px;
+    font-family: "Monserrat-Semibold";
+}
+
+.section_page2{
+    background-image: url(/storage/img/fondo2.png);
+    background-size: cover;
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    height: 140svh;
+}
 
 /*Para telefonos*/
 
