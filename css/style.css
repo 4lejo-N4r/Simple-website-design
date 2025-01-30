@@ -13,9 +13,9 @@
     align-items: center;
     position: absolute;
     width: 100%;
-    padding-left: 100px;
+    padding-left: 19px;
     padding-right: 100px;
-    padding-top: 100px;
+    padding-top: 19px;
 
 }
 
@@ -34,33 +34,33 @@
     background-size: cover;
     background-position: center 20%;
     background-repeat: no-repeat;
-    height: 150svh;
+    height: 140svh;
 }
 
 .article_home{
-    width: 626px;
+    width: 900px;
     height: 300px;
     position: relative;
-    left: 21svW;
+    left: 16.5svW;
     top: 36svh;
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 20px;
     color: var(--font-color-1);
 }
 
 .article_home span{
-    font-size: 28px;    
+    font-size: 40px;    
     font-family: "Monserrat-Semibold";
 }
 
 .article_home h1{
-    font-size: 79px;    
+    font-size: 100px;    
     font-family: "Monserrat-Semibold";
 }
 
 .article_home p{
-    font-size: 28px;    
+    font-size: 25px;    
     font-family: "Monserrat-medium";
 }
 
