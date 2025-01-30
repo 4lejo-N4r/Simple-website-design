@@ -12,10 +12,10 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    width: 98%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
 
 }
 
@@ -55,12 +55,12 @@
 }
 
 .article_home h1{
-    font-size: 75px;    
+    font-size: 79px;    
     font-family: "Monserrat-Semibold";
 }
 
 .article_home p{
-    font-size: 20px;    
+    font-size: 28px;    
     font-family: "Monserrat-medium";
 }
 
