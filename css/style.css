@@ -86,6 +86,12 @@ body{
     font-family: "Monserrat-Semibold";
 }
 
+.txt{
+    color: aliceblue;
+    margin: 0 0 57px 100px ;
+    font-size: 50px;
+    font-family: "Montserrat-semibold";
+}
 .section_page2{
     background-image: var(--banner-2);
     background-position: center 20%;
@@ -146,13 +152,13 @@ body{
 .carousel {
     display: flex;
     flex-direction: row;
-    height: 700px;
+    height: 650px;
     overflow-x: scroll;
     gap: 20px;
     padding: 10px;
     
     & > .carousel-item {
-        border-radius: 7%;
+        border-radius: 34px;
       flex: 1;
       min-width: 20%;
       background-color: #145e2a;
