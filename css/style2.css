@@ -1,0 +1,74 @@
+@import url(variable2.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #1E1E1E;
+}
+
+.div_logo{
+    display: flex;
+    padding-left: 19px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding-left: -190px;
+    padding-right: 100px;
+    padding-top: 19px;
+
+}
+
+.ul_menu {
+    margin-left: 600px;
+    margin-right: 0%;
+    font-size: 20px;
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    text-align: none;
+    gap: 150px;
+    padding-left: 100px;
+    color: white;
+}
+.ul_menu :visited {
+    text-decoration: none;
+    color: white;
+
+}
+.sin_subrayado{
+    text-decoration: none;
+    color: white;
+
+}
+.sin-subrayado:visited {
+    color: #000000;
+  }
+
+.div_images{
+    display: flex;
+    gap: 20px;
+}
+
+.linea{
+    width: 80%;
+    left: 0% ;
+    margin-left: -600px;
+    padding-right: 50px;
+    padding-top: 100px;
+}
+.linea img{
+    display: flex;
+    width: 1700px;
+    position: center;
+    right:50px;
+}
