@@ -72,7 +72,7 @@ body{
 
 .ul_menu li{
     font-size: 19px;
-    font-family: "Monserrat-semibold";
+    font-family: "Monserrat-Semibold";
 }
 
 .section_icon{
@@ -88,9 +88,9 @@ body{
 
 .txt{
     color: aliceblue;
-    margin: 0 0 57px 100px ;
-    font-size: 50px;
-    font-family: "Montserrat-semibold";
+    margin: -200px 0 57px 100px ;
+    font-size: 40px;
+    font-family: "Montserrat-Medium";
 }
 .section_page2{
     background-image: var(--banner-2);
@@ -152,7 +152,7 @@ body{
 .carousel {
     display: flex;
     flex-direction: row;
-    height: 650px;
+    height: 680px;
     overflow-x: scroll;
     gap: 20px;
     padding: 10px;
@@ -160,12 +160,46 @@ body{
     & > .carousel-item {
         border-radius: 34px;
       flex: 1;
-      min-width: 20%;
-      background-color: #145e2a;
+      min-width: 22%;
+      background-color: #145E2A;
       margin: 0 5px;
       
     }
   }
+
+
+.carousel-item img{
+    position: relative;
+    left: 29px;
+    top: 20px;
+}
+
+
+.carousel-item h1{
+    color: aliceblue;
+    font-size: 29px;    
+    font-family: "Monserrat-Semibold";
+    margin-left: 30px;  
+    margin-top: 20px;
+}
+
+.carousel-item p{
+    color: aliceblue;
+    padding: 0px;
+    font-size: 20px;    
+    font-family: "Monserrat-Semibold";
+    margin-left: 30px;  
+}
+
+.carousel-item button{
+    font-size: 20px;    
+    font-family: "Monserrat-Semibold";
+    border-radius: 25px;
+    padding: 12px 20px; 
+    margin-left: 123px;  
+    margin-right: 0;
+}
+
 
 /*Para telefonos*/
 
