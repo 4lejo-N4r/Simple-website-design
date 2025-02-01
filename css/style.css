@@ -113,7 +113,7 @@ body{
     background-image: var(--banner-2);
     background-position: center 20%;
     background-repeat: no-repeat;
-    height: 140svh;
+    height: 165svh;
     background-size: 94% auto;
     border-radius: 65px;
     display: flex;
@@ -132,7 +132,7 @@ body{
     background-image: var(--banner-3);
     background-position: center 20%;
     background-repeat: no-repeat;
-    height: 140svh;
+    height: 165svh;
     background-size: 94% auto;
     border-radius: 65px;
     margin-top: -15%;
@@ -153,7 +153,7 @@ body{
     background-image: var(--banner-4);
     background-position: center 20%;
     background-repeat: no-repeat;
-    height: 140svh;
+    height: 165svh;
     background-size: 94% auto;
     border-radius: 65px;
     margin-top: -15%;
