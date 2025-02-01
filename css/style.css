@@ -52,6 +52,7 @@ body{
     flex-direction: column;
     gap: 20px;
     color: var(--font-color-1);
+    display: flex;
 }
 
 .ul_menu :visited {
@@ -66,7 +67,7 @@ body{
 }
 .sin-subrayado:visited {
     color: #000000;
-  }
+}
 
 
 .article_home span{
@@ -98,6 +99,7 @@ body{
     width: 80%;
     font-size: 50px;
     font-family: "Monserrat-Semibold";
+    display: flex;
 }
 
 .txt{
@@ -105,6 +107,7 @@ body{
     margin: -200px 0 57px 100px ;
     font-size: 40px;
     font-family: "Montserrat-Medium";
+    display: flex;
 }
 .section_page2{
     background-image: var(--banner-2);
@@ -113,7 +116,7 @@ body{
     height: 140svh;
     background-size: 94% auto;
     border-radius: 65px;
-
+    display: flex;
     
 }
 
@@ -133,6 +136,7 @@ body{
     background-size: 94% auto;
     border-radius: 65px;
     margin-top: -15%;
+    display: flex;
     
 }
 
@@ -153,6 +157,7 @@ body{
     background-size: 94% auto;
     border-radius: 65px;
     margin-top: -15%;
+    display: flex;
     
 }
 
@@ -166,26 +171,36 @@ body{
 .carousel {
     display: flex;
     flex-direction: row;
-    height: 680px;
     overflow-x: scroll;
+    justify-content: flex-start;
     gap: 20px;
-    padding: 10px;
-    
+    padding: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+
+
     & > .carousel-item {
         border-radius: 34px;
-      flex: 1;
-      min-width: 22%;
-      background-color: #145E2A;
-      margin: 0 5px;
-      
-    }
-  }
+    flex: 1;
+    min-width: 400px;
+    min-height: 700px;
+    background-color: #145E2A;
+    margin: 0 5px;
+
+}
+}
 
 
 .carousel-item img{
+    display: flex;
     position: relative;
     left: 29px;
     top: 20px;
+    display:grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax( 150px, 1fr)
+    );
 }
 
 
@@ -195,6 +210,11 @@ body{
     font-family: "Monserrat-Semibold";
     margin-left: 30px;  
     margin-top: 20px;
+    display:grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax( 150px, 1fr)
+    );
 }
 
 .carousel-item p{
@@ -203,6 +223,11 @@ body{
     font-size: 20px;    
     font-family: "Monserrat-Semibold";
     margin-left: 30px;  
+    display:grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax( 150px, 1fr)
+    );
 }
 
 .carousel-item button{
@@ -210,8 +235,13 @@ body{
     font-family: "Monserrat-Semibold";
     border-radius: 25px;
     padding: 12px 20px; 
-    margin-left: 123px;  
-    margin-right: 0;
+    margin-left: 100px;  
+    margin-right: 100px;
+    display:grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax( 150px, 1fr)
+    );
 }
 
 .footer{
