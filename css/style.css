@@ -191,7 +191,7 @@ body{
 }
 
 
-.carousel-item img{
+carousel-item img{
     display: flex;
     position: relative;
     left: 29px;
